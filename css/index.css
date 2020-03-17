@@ -174,16 +174,23 @@ max-width: 45%;
 
 @media(max-width:800px){
 
-	.oof{
+.oof{
 justify-content: center;
 flex-wrap: wrap;
 }
-	.oof div{
-max-width: 800px;
+.oof div{
+max-width: 80%;
 }
-	.snippett {
+.snippett {
 display: none;
-	}
+}
+.leftHead{
+justify-content: center;
+}
+.topBar{
+	flex-flow: column;
+	justify-content: space-evenly;
+}
 }
 
 
@@ -191,16 +198,17 @@ display: none;
 
 @media(max-width:500px){
 
-	.oof {
+.oof {
 	flex-direction: column;
-	}
-.oof div{
-	max-width: 500px;
+columns: 500px 1;
 }
-	.links a{
-	margin-bottom: 20px;
-	}
-	.snippett img{
-		display: none;
-	}
+.oof div{
+max-width: 50%;
+}
+.links a{
+margin-bottom: 20px;
+}
+.snippett img{
+	display: none;
+}
 }
