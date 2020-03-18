@@ -135,6 +135,7 @@ padding:
 max-width: 100%;
 display: flex;
 justify-content: space-evenly;
+flex-direction: row-reverse;
 margin: 1%;
 padding:0 3% 2%;
 }
@@ -164,7 +165,8 @@ padding: 20px;
 border: 2% solid black;
 }
 
-.leftHead {
+.leftHead {padding-top: 20%;
+	text-align: center;
 max-width: 45%;
 }
 
@@ -174,15 +176,16 @@ max-width: 45%;
 
 @media(max-width:800px){
 
-	.oof{
+	.oof{ display:flex;
 justify-content: center;
 flex-wrap: wrap;
 }
-	.oof div{
-max-width: 800px;
-}
+	
 	.snippett {
 display: none;
+	}
+	.links {
+		justify-content: space-between;
 	}
 }
 
@@ -194,9 +197,7 @@ display: none;
 	.oof {
 	flex-direction: column;
 	}
-.oof div{
-	max-width: 500px;
-}
+
 	.links a{
 	margin-bottom: 20px;
 	}
