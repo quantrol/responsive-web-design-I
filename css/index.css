@@ -174,23 +174,16 @@ max-width: 45%;
 
 @media(max-width:800px){
 
-.oof{
+	.oof{
 justify-content: center;
 flex-wrap: wrap;
 }
-.oof div{
-max-width: 80%;
+	.oof div{
+max-width: 800px;
 }
-.snippett {
+	.snippett {
 display: none;
-}
-.leftHead{
-justify-content: center;
-}
-.topBar{
-	flex-flow: column;
-	justify-content: space-evenly;
-}
+	}
 }
 
 
@@ -198,17 +191,16 @@ justify-content: center;
 
 @media(max-width:500px){
 
-.oof {
+	.oof {
 	flex-direction: column;
-columns: 500px 1;
-}
+	}
 .oof div{
-max-width: 50%;
+	max-width: 500px;
 }
-.links a{
-margin-bottom: 20px;
-}
-.snippett img{
-	display: none;
-}
+	.links a{
+	margin-bottom: 20px;
+	}
+	.snippett img{
+		display: none;
+	}
 }
